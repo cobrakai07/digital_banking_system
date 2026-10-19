@@ -1,0 +1,78 @@
+
+# Compiled Java files
+*.class
+
+# Build output
+target/
+build/
+out/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# Java crash dumps
+hs_err_pid*
+replay_pid*
+
+# Test reports and coverage
+surefire-reports/
+failsafe-reports/
+coverage/
+jacoco.exec
+
+# Local databases and data
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker overrides (optional)
+docker-compose.override.yml
